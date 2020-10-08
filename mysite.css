@@ -51,7 +51,7 @@ nav {
 /* main-visual */
 .main-visual {
   background-image: url(img/mv.png);
-  background-size: cover;
+  background-size: center;
   background-position: bottom;
   width: 100%;
   height: 650px;
@@ -75,6 +75,7 @@ nav {
 /* portfolio */
 .portfolio {
   width: 100%;
+  height: 870px;
   background-color: #eceff1;
   font-size: 32px;
   color: #000;
@@ -88,19 +89,89 @@ nav {
 
 .portfolio-heading {
   font-size: 32px;
-  padding: 90px auto 8px;
+  padding-top: 90px;
+  position: relative;
 }
 
 .portfolio-heading::after {
+  content: "";
   display: block;
   width: 70px;
   height: 3px;
   background-color: #ec715f;
   position: absolute;
+  left: 420px;
+  margin-top: 8px;
 }
 
-portfolio-heading-text {
-  padding: 30 auto;
+.portfolio-heading-text {
+  padding-top: 30px;
   font-size: 16px;
   color: #000;
+}
+
+.portfolio-box {
+  width: 920px;
+  height: 510px;
+  margin: 30px auto 90px;
+}
+
+.portfolio-box1 {
+  background-image: url(img/sketch.jpg);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  float: left;
+  margin-right: 10px;
+}
+
+.portfolio-box2 {
+  background-image: url(img/websuku.png);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-right: 10px;
+}
+
+.portfolio-box3 {
+  background-image: url(img/write.jpg);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+.portfolio-box4 {
+  background-image: url(img/webcamp.png);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.portfolio-box5 {
+  background-image: url(img/talk.jpg);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.portfolio-box6 {
+  background-image: url(img/webcamp-mother.png);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-top: 10px;
 }
