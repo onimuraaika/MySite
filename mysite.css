@@ -499,3 +499,20 @@ img {
 .nav-list {
   display: none;
 }
+
+.main-visual {
+  background-image: url(img/code.png);
+  background-position: top;
+}
+
+.main-title {
+  width: 90%;
+  margin: auto 5%;
+  font-size: 40px;
+}
+
+.main-text {
+  width: 90%;
+  margin: auto 5%;
+  font-size: 18px;
+}
