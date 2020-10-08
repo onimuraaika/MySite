@@ -238,7 +238,8 @@ nav {
   height: auto;
 }
 
-i {
+.fas {
+  font-size: 60px;
   position: relative;
   left: 140px;
 }
@@ -254,4 +255,187 @@ i {
   font-size: 16px;
   color: #000;
   text-align: left;
+}
+
+/* Profile */
+.profile {
+  width: 100%;
+  height: 610px;
+  background-color: #eceff1;
+  font-size: 32px;
+  color: #000;
+}
+
+.profile-container {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-heading {
+  font-size: 32px;
+  padding-top: 90px;
+  position: relative;
+}
+
+.profile-heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  position: absolute;
+  left: 470px;
+  margin-top: 8px;
+}
+
+.profile-heading-text {
+  padding-top: 30px;
+  font-size: 16px;
+  color: #000;
+}
+
+.profile-box {
+  width: 1024px;
+  height: 250px;
+  margin: 30px auto 90px;
+  display: flex;
+}
+
+.profile-img {
+  width: 512px;
+  text-align: center;
+}
+
+.my-icon {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-text {
+  width: 512px;
+}
+
+.my-name {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.my-name-text {
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+}
+
+.my-skills {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.my-skill-text {
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+}
+
+/* Contact */
+.contact {
+  width: 100%;
+  height: 500px;
+  font-size: 32px;
+  color: #000;
+}
+
+.contact-container {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 32px;
+  padding-top: 90px;
+  position: relative;
+}
+
+.contact-heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  position: absolute;
+  left: 480px;
+  margin-top: 8px;
+}
+
+.contact-heading-text {
+  padding-top: 30px;
+  font-size: 16px;
+  color: #000;
+}
+
+.contact-box {
+  width: 800px;
+  height: 140px;
+  margin: 30px auto 90px;
+}
+
+.left-box {
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+  float: left;
+}
+
+.left-text-box {
+  width: 170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mail {
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.mail-address {
+  font-size: 16px;
+  text-align: left;
+}
+
+.tel {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.tel-number {
+  font-size: 16px;
+  text-align: left;
+}
+
+.right-box {
+  width: 50%;
+  float: right;
+}
+
+.right-sns-box {
+  width: 210px;
+  margin: 0 auto;
+}
+
+.sns {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.fab {
+  display: inline-block;
+  font-size: 50px;
+  margin-right: 20px;
 }
