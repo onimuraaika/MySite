@@ -453,3 +453,49 @@ footer {
   font-size: 16px;
   color: #fafafa;
 }
+
+/*レスポンシブ対応*/
+@media screen and (max-width: 768px) {
+
+header { 
+  width: 100%;
+  height: 50px;
+}
+
+.container {
+  width: 90%;
+  height: 50px;
+}
+
+img {
+  height: 50px;
+  margin-left: 5%;
+}
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5%;
+  border: 1px solid #fafafa;
+  float: right;
+}
+
+/*メニュー線の1を調整*/
+.bar:first-child {
+  margin-top: 10px;
+}
+
+/*メニューの線を指定*/
+.bar {
+  display: block;
+  width: 25px;
+  height: 2px; /*線の太さになる*/
+  margin: 5px auto;
+  background-color: #fafafa
+}
+
+.nav-list {
+  display: none;
+}
