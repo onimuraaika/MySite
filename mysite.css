@@ -666,3 +666,7 @@ footer {
 .fab:last-child {
   margin-right: 0;
 }
+
+footer {
+  height: 60px;
+}
